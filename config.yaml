@@ -1,0 +1,9 @@
+# Example configuration for training
+# You can also pass these as command-line arguments to train.py
+
+model: yolo11n.pt
+epochs: 100
+batch_size: 16
+img_size: 1024
+patience: 10
+data_yaml: data/dataset.yaml

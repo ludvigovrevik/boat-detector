@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# YOLO outputs
+runs/
+output/
+*.pt
+
+# Data
+data/images/
+data/labels/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Weights & Biases
+wandb/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.MOV
+*.mkv
+
+# Misc
+*.zip
+*.tar.gz

@@ -1,0 +1,23 @@
+# Dataset configuration for YOLO training
+# Update 'path' to your dataset root directory
+
+path: .  # Dataset root (relative to this file or absolute path)
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  0: open_pleasure_craft
+  1: enclosed_pleasure_craft
+  2: semi_open_pleasure_craft
+  3: fishing_vessel
+  4: unspecified
+  5: rhib
+  6: sailboat_sail
+  7: sailboat_motor
+  8: supply_vessel
+  9: rescue_vessel
